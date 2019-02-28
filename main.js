@@ -1,11 +1,15 @@
 const electron = require("electron");
+const nativeImage = require('electron').nativeImage
+const path = require('path')
+const iconPath = path.join(__dirname, '/res/start.png');
+const trayIcon = nativeImage.createFromPath(iconPath)
 
 const { ipcMain, app, dialog, BrowserWindow, Tray, Menu } = electron;
 
 function createWindow() {
-  const win = new BrowserWindow({ width: 670, height: 543 });
+  const win = new BrowserWindow({ width: 670, height: 500 });
 
-  const tray = new Tray("res/start.png");
+  const tray = new Tray(trayIcon);
 
   win.loadFile("index.html");
 

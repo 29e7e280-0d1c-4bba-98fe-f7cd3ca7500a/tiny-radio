@@ -4,13 +4,13 @@
   "description": "tiny-radio",
   "main": "main.js",
   "dependencies": {
+  },
+  "devDependencies": {
     "electron": "^4.0.0-nightly.20181010"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
-
   },
   "repository": {
     "type": "git",
