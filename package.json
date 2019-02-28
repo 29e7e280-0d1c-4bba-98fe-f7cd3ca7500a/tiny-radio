@@ -1,12 +1,19 @@
 {
-  "name": "tiny-radio",
+  "name": "TinyRadio",
   "version": "1.0.1",
-  "description": "tiny-radio",
+  "description": "A radio app listen bbc radio and other radio",
   "main": "main.js",
   "dependencies": {
   },
   "devDependencies": {
     "electron": "^4.0.0-nightly.20181010"
+  },
+  "build": {
+    "artifactName": "${name}-${version}-${os}.${ext}",
+    "linux": {
+      "target": ["AppImage"],
+      "icon": "build/icon/"
+  }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
