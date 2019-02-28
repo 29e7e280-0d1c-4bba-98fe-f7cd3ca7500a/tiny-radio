@@ -1,2 +1,3 @@
 #!/bin/sh
-electron-builder .
+electron-builder . -l AppImage
+
