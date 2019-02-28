@@ -1,0 +1,6 @@
+{
+    "linux": {
+        "target": ["AppImage"],
+        "icon": "res/512x512.png"
+    }
+}

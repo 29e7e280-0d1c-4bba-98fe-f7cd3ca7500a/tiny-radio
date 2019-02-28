@@ -7,7 +7,7 @@ const trayIcon = nativeImage.createFromPath(iconPath)
 const { ipcMain, app, dialog, BrowserWindow, Tray, Menu } = electron;
 
 function createWindow() {
-  const win = new BrowserWindow({ width: 670, height: 500 });
+  const win = new BrowserWindow({ width: 670, height: 484, icon: iconPath });
 
   const tray = new Tray(trayIcon);
 
