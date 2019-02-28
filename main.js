@@ -18,7 +18,18 @@ function createWindow() {
   });
 
   const contextMenu = Menu.buildFromTemplate([
-    { label: "关于"}
+    {
+      label: 'Show Window',
+      click: () => {
+        win.isVisible() ? win.hide(): win.show();
+      }
+    },
+    {
+      label: "Exit",
+      click: () => {
+        win.close();
+      }
+    }
   ]);
   tray.setToolTip("双击显示窗口");
   tray.setContextMenu(contextMenu);
