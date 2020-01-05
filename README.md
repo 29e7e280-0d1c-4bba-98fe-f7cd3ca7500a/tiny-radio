@@ -6,12 +6,14 @@ A windows pc client for radio.net
 
 ## Development
 
-You need nodejs installed, then run `npm install && npm start` to try this in dev mode,
+Please make sure `yarn` installed first.
+
+You need nodejs installed, then run `yarn install && yarn start` to try this in dev mode,
 
 If you want to build native executable binary , you need `electron-builder`.
 
 ```
-npm i -g electron-builder
+yarn global add electron-builder
 ./bin/build.sh
 ```
 

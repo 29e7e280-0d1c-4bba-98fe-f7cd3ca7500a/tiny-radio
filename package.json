@@ -1,12 +1,12 @@
 {
   "name": "TinyRadio",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A radio app listen bbc radio and other radio",
   "main": "main.js",
   "dependencies": {
   },
   "devDependencies": {
-    "electron": "^4.0.0-nightly.20181010"
+    "electron": "~8.0.0"
   },
   "build": {
     "artifactName": "${name}-${version}-${os}.${ext}",
