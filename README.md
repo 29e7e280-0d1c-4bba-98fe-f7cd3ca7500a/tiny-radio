@@ -1,8 +1,20 @@
 # tiny-radio
 
-![preview](res/radio.net.png)
 
 A windows pc client for radio.net
+
+## Join us
+
+Matrix chat 
+
+![https://matrix.to/#/+yskm:matrix.org](https://yskm.dev/matrix.png)
+
+[https://matrix.to/#/+yskm:matrix.org](https://matrix.to/#/+yskm:matrix.org)
+
+## Preview
+
+
+![preview](res/radio.net.png)
 
 ## Development
 
