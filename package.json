@@ -6,7 +6,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "electron": "~8.0.0"
+    "electron": "~8.5.1"
   },
   "build": {
     "artifactName": "${name}-${version}-${os}.${ext}",
